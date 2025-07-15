@@ -5,7 +5,7 @@ description = "Curated list of algorithm and data structure problems implemeted 
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "aiohttp==3.10.11",
+    "aiohttp==3.12.14",
     "attrs==19.3.0",
     "chardet==3.0.4",
     "graphviz==0.20.3",
