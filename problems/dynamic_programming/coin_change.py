@@ -36,11 +36,8 @@ def solution_v2(coins, amount):
 
 def solution_v3(coins, amount):
     result = []
-    counter = 0
 
     def dfs(coins, remain, ans, result):
-        nonlocal counter
-        counter += 1
         if remain < 0:
             return None
         if remain == 0:

@@ -35,6 +35,7 @@ def solution_v2(nums: list[int], product: int) -> list[int]:
 
 
 def solution_v3(nums: list[int], product: int) -> list[int]:
+    # impossible to gather the indices with this method
     result = []
 
     def dfs(subset: list[int], current: list[int], target: int):
