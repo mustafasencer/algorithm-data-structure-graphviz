@@ -1,3 +1,8 @@
+"""
+https://leetcode.com/problems/first-unique-character-in-a-string/description/
+"""
+
+
 def solution(chars):
     """
     1. Append the dict

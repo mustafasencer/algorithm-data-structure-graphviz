@@ -1,5 +1,9 @@
 from typing import Any
 
+"""
+https://leetcode.com/problems/flatten-deeply-nested-array/description/
+"""
+
 
 def flatten_recursive(L: list) -> list[Any]:
     """

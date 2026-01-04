@@ -1,3 +1,8 @@
+"""
+https://leetcode.com/problems/valid-parentheses/description/
+"""
+
+
 def check_sequence(sequence) -> bool | None:
     bracket_mapper = {"{": "}", "[": "]", "(": ")"}
     reverse = ["}", ")", "]"]
