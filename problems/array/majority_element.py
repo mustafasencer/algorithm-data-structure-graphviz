@@ -1,3 +1,8 @@
+"""
+https://leetcode.com/problems/majority-element/description/
+"""
+
+
 def solution(nums):
     """1. No explanation!"""
     nums.sort()
